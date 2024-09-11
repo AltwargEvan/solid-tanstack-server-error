@@ -7,6 +7,7 @@ export default function TestRoute() {
       throw Error("my error");
     },
     queryKey: ["key"],
+    retry: false,
   }));
   return (
     <div>
